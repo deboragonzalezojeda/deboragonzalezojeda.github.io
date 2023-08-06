@@ -33,10 +33,10 @@ li {
 }
 
 .container {
-    background-color: black;
+    background-color: #FBDEE1;
     padding-top: 5vh;
     width: 100vw;
-    height: 92vh;
+    height: 100vh;
 }
 
 #inicio {
