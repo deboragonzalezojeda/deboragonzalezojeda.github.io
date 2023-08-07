@@ -9,7 +9,7 @@ body, header {
 }
 
 nav {
-    background-image: linear-gradient(to right,#000, #8C6489, #8C6489, #8C6489, #8C6489);
+    background-image: linear-gradient(to right,#FFC2E2, #FFF0F8);
     position: fixed;
     width: 100vw;
     margin: auto;
@@ -25,113 +25,78 @@ li {
 }
 
 .link_nav {
-    color: #000;
-    font-size: 1vw;
+    color: #00274A;
+    font-size: 1rem;
     display: inline;
     padding: 20px;
     padding-right: 2vw;
 }
 
 .container {
-    background-color: black;
+    background-color: #FFF5FF;
     padding-top: 5vh;
     width: 100vw;
     height: 92vh;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin: auto;
 }
 
 #inicio {
     margin: 0;
     padding: 0;
-    align-items: center;
-    display: flex;
+    
 }
 
-.image_container {
-    background-image: linear-gradient(#000, #8C6489);
-}
-
-h1 {
-    color: #8C6489;
-    font-size: 15vw;
-    line-height: 5vw;
+.imagen_grande {
+    width: 50vw;
 }
 
 h5 {
-    padding-top: 10vh; 
-    color: #8C6489;
-    font-size: 2vw;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #00274A;
     text-align: center;
 }
 
-img {
-    width: 48vw;
-}
-
-#sobre_mi {
-    width: 100vw;
-    align-items: center;
-    justify-content: center;
-    display: block;
-
+h1 {
+    color: #00274A;
+    font-size: 3.5rem;
+    text-align: center;
 }
 
 #descripcion {
-    background-color: #8C6489;
-    width: 70vw;
-    margin: 5vw;
-    padding: 2vw;
-    font-size: 1.8vw;
-}
-
-h2 {
-    color: #8C6489;
-    font-size: 10vw;
-    text-align: right;
-    padding-right: 5vw;
-}
-
-h3 {
-    color: #8C6489;
-    font-size: 5vw;
+    background-image: linear-gradient(to right,#FFC2E2, #FFF0F8);
+    width: 35vw;
+    margin: 3vw;
+    padding: 3vw;
+    font-size: 1.3rem;
     text-align: center;
-    line-height: 0.1vw;
 }
 
-#contacto {
-    background-color: #8C6489;
-    display: flex;
-    justify-content: space-between;
-}
-
-h4 {
-    font-size: 8vw;
-    line-height: 1vh;
-}
-
-a {
-    font-size: 4vw;
-    text-align: right;
-    display: block;
-    padding-right: 4vw;
+.imagen_peque {
+    width: 30vw;
 }
 
 .contenedor_grilla {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: #8C6489;
+    background-image: linear-gradient(to right,#FFC2E2, #FFF0F8);
     padding-right: 1vw;
+    margin: 3vw;
   }
 
 .item_grilla {
-    background-color: #8C6489;
-    border: 20px solid;
-    padding: 5px;
+    background-color: #FFF5FF;
+    margin: 3vw;
+    padding: 2vw;
     display: block;
     text-align: center;
   }
 
   .imagen_grilla {
-    width: 10vw;
+    width: 15vw;
   }
 
   #trabajos {
@@ -139,13 +104,6 @@ a {
   }
 
   .texto_grilla {
-    font-size: 1.2vw;
-  }
-
-  #redes {
-    padding-top: 50vh;
-  }
-
-  #texto_contacto {
-    padding-left: 3vw;
+    font-size: 1.2rem;
+    color: #00274A;
   }
