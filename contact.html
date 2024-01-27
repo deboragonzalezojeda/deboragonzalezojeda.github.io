@@ -39,23 +39,24 @@
     </nav>
 
     <main class="container-fluid">
-        <div class="col-lg-4 col-md-6 offset-lg-6 offset-md-6 p-5 mt-5 text-white">
+        <div class="col-lg-4 col-md-6 offset-lg-6 offset-md-6 pt-0 p-5 mt-5 text-white">
             <form action="https://formspree.io/f/xoqojgbn" method="post">
                 <div class="mb-3">
-                    <label for="nombre" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="nombre">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" name="name">
                 </div>
                 <div class="mb-3">
-                    <label for="apellido" class="form-label">Lastname</label>
-                    <input type="text" class="form-control" id="apellido">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="subject" name="subject">
                 </div>
                 <div class="mb-3">
-                    <label for="correo" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="correo">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" name="email">
                 </div>
-                <textarea name="contenido" cols="30" rows="10" class="form-control mb-3"></textarea>
+                <textarea name="content" cols="30" rows="10" class="form-control mb-3"></textarea>
                 <button type="submit" class="btn btn-outline-dark text-white">Submit</button>
             </form>
+
         </div>
     </main>
 
