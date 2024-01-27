@@ -19,7 +19,6 @@ h1 {
     background-image: url(img/bg-r.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     height: 100vh;
 }
 
@@ -27,14 +26,12 @@ h1 {
     background-image: url(img/bg-r.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
 }
 
 .bg-image-l {
     background-image: url(img/bg-l.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     height: 100vh;
 }
 
