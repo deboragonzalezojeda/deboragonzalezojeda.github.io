@@ -1,110 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
 
-* {
-    font-family: 'Montserrat', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
+body {
+    font-family: 'Heebo', sans-serif;
 }
 
-body, header {
-    margin: 0;
-    padding: 0;
-}
-
-nav {
-    background-image: linear-gradient(to right,#FFC2E2, #FFF0F8);
-    position: fixed;
-    width: 100vw;
-    margin: auto;
-}
-
-ul {
-    list-style: none;
-    text-align: right;  
-}
-
-li {
-    display: inline;
-}
-
-.link_nav {
-    color: #00274A;
-    font-size: 1rem;
-    display: inline;
-    padding: 20px;
-    padding-right: 2vw;
-}
-
-.container {
-    background-color: #FFF5FF;
-    padding-top: 5vh;
-    width: 100vw;
-    height: 92vh;
-    align-items: center;
-    display: flex;
-    text-align: center;
-    margin: auto;
-}
-
-#inicio {
-    margin: 0;
-    padding: 0;
-    
-}
-
-.imagen_grande {
-    width: 50vw;
-}
-
-h5 {
-    font-weight: 500;
-    font-size: 2rem;
-    color: #00274A;
-    text-align: center;
+.secondary-font {
+    font-family: 'Tektur', sans-serif;
+    color: #01a0c6;
 }
 
 h1 {
-    color: #00274A;
-    font-size: 3.5rem;
-    text-align: center;
+    font-family: 'Tektur';
 }
 
-#descripcion {
-    background-image: linear-gradient(to right,#FFC2E2, #FFF0F8);
-    width: 35vw;
-    margin: 3vw;
-    padding: 3vw;
-    font-size: 1.3rem;
-    text-align: center;
+.bg-image-r {
+    background-image: url(img/bg-r.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
-.imagen_peque {
-    width: 30vw;
+.bg-image-r-auto {
+    background-image: url(img/bg-r.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.contenedor_grilla {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    background-image: linear-gradient(to right,#FFC2E2, #FFF0F8);
-    padding-right: 1vw;
-    margin: 3vw;
-  }
+.bg-image-l {
+    background-image: url(img/bg-l.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
 
-.item_grilla {
-    background-color: #FFF5FF;
-    margin: 3vw;
-    padding: 2vw;
-    display: block;
-    text-align: center;
-  }
-
-  .imagen_grilla {
-    width: 15vw;
-  }
-
-  #trabajos {
-    display: block;
-  }
-
-  .texto_grilla {
-    font-size: 1.2rem;
-    color: #00274A;
-  }
+.blue-text {
+    color: #01a0c6;
+}
